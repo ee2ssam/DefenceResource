@@ -1,0 +1,20 @@
+목표 : 적(Enemy) 하나 만들어서 적이 서있는 지점(시점)에서 종점까지 이동하는 프로그램 구현
+        (게임 오브젝트의 이동) A 지점 -> B 지점 까지 이동
+
+<오늘의 과제>
+1. 카메라 시점 결정 - 유저 플레이 화면 결정
+2. Enemy 만들기 (구 : 크기 1x1x1, 하늘색) - 프리팹 저장
+- Enemy의 위치를 시작지점에 위치에 놓기
+3. Enemy 이동 구현
+- Enemy 시작지점에서 종점(Target)까지 이동하기
+- 도착 판정 하기
+4. 종점까지 이동 완료하면
+- 오브젝트 kill (Destroy)
+- Debug.Log("종점 도착!!!!");
+
+<스킬>
+1. Start, Update
+2. Transform
+3. Translate, Time.deltaTime
+4. Destroy
+
